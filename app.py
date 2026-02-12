@@ -6,6 +6,7 @@ import datetime
 from datetime import datetime as dt
 import base64
 
+
 # -------------------- LOAD MODEL --------------------
 pickle_file_path = "upi_fraud_model.pkl"
 loaded_model = pickle.load(open(pickle_file_path, "rb"))
